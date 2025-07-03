@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Computer Institute</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      padding: 15px 20px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0 10px;
+      color: #2c3e50;
+    }
+
+    .contact-container {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 30px;
+    }
+
+    .contact-info, .contact-form {
+      flex: 1 1 300px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .contact-info h3, .contact-form h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .contact-info p {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    form button {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    form button:hover {
+      background-color: #1a242f;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <header>
+    <nav>
+ <a href="home.html"> 🏠 Home</a>
+<a href="course.html">📚 Courses</a>
+<a href="teacher.html">👨‍🏫 Teachers</a>
+<a href="photo.html">🖼️ Photo Gallery</a>
+<a href="result.html">📄 Results</a>
+<a href="notice.html">📢 Notice</a>
+<a href="contact.html">📞 Contact</a>
+  </header>
+    </nav>
+  </header>
+
+  <h1>📞 Contact Us</h1>
+
+  <div class="contact-container">
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <h3>📍 Our Address</h3>
+      <p>Computer Institute, Main Road, Hanumaan Mandir Chandmari</p>
+      <p>City: Motihari, District: East Champaran bihar, pin code: 845401</p>
+
+      <h3>📞 Phone</h3>
+      <p>+91-7323021766</p>
+
+      <h3>📧 Email</h3>
+      <p>rajv19036@gmail.com</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h3>✉️ Send Us a Message</h3>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
